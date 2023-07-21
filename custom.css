@@ -84,6 +84,10 @@ a:hover{
     font-size: 1.8rem;
 }
 
+#texto-desc3{
+    font-size: 1.8rem;
+}
+
 @media screen and (max-width: 1000px) {
     #descripcion{
         display: none;
@@ -110,6 +114,10 @@ a:hover{
 
 @media screen and (max-width: 600px) {
     #texto-desc2{
+        font-size: 1.4rem;
+        padding: 20px !important;
+    }
+    #texto-desc3{
         font-size: 1.4rem;
         padding: 20px !important;
     }
