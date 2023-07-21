@@ -1,0 +1,144 @@
+:root {
+    --color1: rgb(67, 0, 119);
+}
+
+.nav-item:hover {
+    /* subrayar texto*/
+    text-decoration: underline;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.navbar {
+    background-color: var(--color1);
+}
+
+#descripcion {
+    background: rgb(93, 65, 204);
+    background: linear-gradient(0deg, rgba(93, 65, 204, 1) 0%, rgba(99, 25, 156, 1) 50%, rgba(81, 16, 132, 1) 100%);
+}
+
+#dj{
+    background: rgb(93, 65, 204);
+    background: linear-gradient(0deg, rgba(93, 65, 204, 1) 0%, rgba(99, 25, 156, 1) 50%, rgba(81, 16, 132, 1) 100%);
+}
+
+.texto-entrada{
+    font-weight: 500;
+    color: #6E06BF;
+    word-spacing: normal;
+}
+
+.texto {
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+}
+
+.texto-lila{
+    color: #6E06BF;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#texto-desc{
+    position: relative;
+    left: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+    #texto-desc{
+        font-size: 1.6rem;
+        padding: 0px;
+        padding-left: 5px;
+    }
+    #descripcion-img1 {
+        height: 100%;
+    }
+}
+
+#texto-desc2{
+    background: rgb(93, 65, 204);
+    background: linear-gradient(0deg, rgba(93, 65, 204, 1) 0%, rgba(99, 25, 156, 1) 50%, rgba(81, 16, 132, 1) 100%);
+    color: white;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1000px) {
+    #descripcion{
+        display: none;
+    }
+    #descripcion-mobile{
+        display: block !important;
+    }
+    #qr{
+        display: none !important;
+    }
+    #qr-mobile{
+        display: block !important;
+        padding-top: 150px;
+    }
+    #dj{
+        display: none !important;
+    }
+    #dj-mobile{
+        display: block !important;
+    }
+    #registro-mobile{
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #texto-desc2{
+        font-size: 1.4rem;
+        padding: 20px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: auto 0px !important;
+    }
+
+    .logo-flui {
+        width: fit-content;
+        max-width: 285px;
+        height: auto;
+    }
+}
+
+#buscador{
+    font-size: 1.3rem;
+    border-color: #6E06BF;
+    border-width: 10px;
+    border-radius: 12px;
+    max-width: 600px;
+}
+
+#descripcion-img2{
+    max-height: 400px;
+}
+
+.img-servicio{
+    max-width: 300px;
+}
+
+.item{
+    max-width: 300px;
+}
