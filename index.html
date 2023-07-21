@@ -43,8 +43,8 @@
   <div id="page">
 
     <nav class="px-5 navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid" style="max-width: 1500px;">
-        <img class="logo-flui" src="./img/logoflui.png" width="285" height="100" class="d-inline-block align-text-top">
+      <div class="container-fluid header" style="max-width: 1500px;">
+        <img class="logo-flui" src="./img/logoflui.png" class="d-inline-block align-text-top">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="border-width: 3px;">
           <span class="navbar-toggler-icon"></span>
@@ -173,13 +173,13 @@
       </div>
     </section>
 
-    <section id="descripcion-mobile" style="display:none; margin-top: 80px;">
+    <section id="descripcion-mobile" style="display:none;">
       <div class="wow animate__animated animate__fadeInLeft">
         <div class="d-flex flex-column text-center">
           <div id="texto-desc2" class="d-flex flex-column align-items-center justify-content-center p-5 texto">
             Si tienes algún emprendimiento u ofreces servicios y/o productos para eventos y resides en la comuna de
             Antofagasta, <br> ¡Esta plataforma es para ti! Regístrate y sé parte de Flui.
-            <a href="" id="texto-desc" class="col-md-6 d-flex align-items-center justify-content-center pt-5 texto">
+            <a href="" id="texto-desc" class="col-md-6 d-flex align-items-center justify-content-center pt-5 texto" style="font-size: 2rem;">
               REGÍSTRATE AQUÍ
             </a>
           </div>
@@ -201,12 +201,11 @@
           <div class="col-md-6">
             <img src="./img/qr.png" alt="" style="max-width: 400px; width: 100%;">
           </div>
-
         </div>
       </div>
     </section>
 
-    <section id="qr-mobile" style="display:none">
+    <section id="qr-mobile" style="display:none; padding-top: 50px;">
         <div class="d-flex flex-column text-center justify-content-center align-items-center p-3">
           <div class="texto-lila texto">
             <div style="font-size: 3rem; font-weight: 500;">
@@ -222,30 +221,11 @@
       </div>
     </section>
 
-    <footer class="mt-5 py-3">
+    <footer class="mt-5 pt-3" style="background-color: #430077;">
       <div class="container">
-        <div>
-          <div class="row text-center">
-            <div class="">
-              <h4>
-                Contacto
-              </h4>
-              <div class="d-flex flex-column align-items-center justify-content-around">
-                <a href="">
-                  <i class="fas fa-phone-alt" aria-hidden="true"></i>
-                  <span>
-                    Teléfono : +56 9 9135 3540
-                  </span>
-                </a>
-                <a href="mailto:matiasortiz01@outlook.com">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <span>
-                    Email : matiasortiz01@outlook.com
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div class="d-flex flex-column gap-3 py-3">
+          <a href="mailto:flui.chile@gmail.com" style="color:white; font-weight: 500;">flui.chile@gmail.com</a>
+          <img src="./img/icono-insta.png" alt="" style="width: 30px">
         </div>
       </div>
     </footer>

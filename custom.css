@@ -15,6 +15,10 @@
     font-size: 1.2rem;
 }
 
+.logo-flui{
+    max-width: 200px;
+}
+
 .navbar {
     background-color: var(--color1);
 }
@@ -28,6 +32,7 @@
     background: rgb(93, 65, 204);
     background: linear-gradient(0deg, rgba(93, 65, 204, 1) 0%, rgba(99, 25, 156, 1) 50%, rgba(81, 16, 132, 1) 100%);
 }
+
 
 .texto-entrada{
     font-weight: 500;
@@ -91,7 +96,6 @@ a:hover{
     }
     #qr-mobile{
         display: block !important;
-        padding-top: 150px;
     }
     #dj{
         display: none !important;
@@ -115,11 +119,11 @@ a:hover{
     .navbar {
         padding: auto 0px !important;
     }
+}
 
-    .logo-flui {
-        width: fit-content;
-        max-width: 285px;
-        height: auto;
+@media screen and (max-width: 397px) {
+    .header{
+        justify-content: center !important;
     }
 }
 
