@@ -26,17 +26,6 @@
     background-color: var(--color1);
 }
 
-#descripcion {
-    background: rgb(93, 65, 204);
-    background: linear-gradient(0deg, rgba(93, 65, 204, 1) 0%, rgba(99, 25, 156, 1) 50%, rgba(81, 16, 132, 1) 100%);
-}
-
-#dj{
-    background: rgb(93, 65, 204);
-    background: linear-gradient(0deg, rgba(93, 65, 204, 1) 0%, rgba(99, 25, 156, 1) 50%, rgba(81, 16, 132, 1) 100%);
-}
-
-
 .texto-entrada{
     font-weight: 500;
     color: #6E06BF;
@@ -92,12 +81,6 @@ a:hover{
 }
 
 @media screen and (max-width: 1000px) {
-    #descripcion{
-        display: none;
-    }
-    #descripcion-mobile{
-        display: block !important;
-    }
     #qr{
         display: none !important;
     }
@@ -146,18 +129,26 @@ a:hover{
     max-width: 600px;
 }
 
-#descripcion-img2{
-    max-height: 400px;
-}
-
-.img-servicio{
-    max-width: 300px;
-}
-
 .item{
     max-width: 300px;
 }
 
 .texto-pequeño{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color: #A77FC7;
+}
+
+.registrar{
+    background-color: #6E06BF;
+    border-width: 1px;
+    border-color: #430077;
+    border-radius: 0px;
+    width: 250px !important;
+    height: 50px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.registrar:hover{
+    background-color: #430077;
 }
